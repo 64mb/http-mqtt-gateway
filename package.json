@@ -1,0 +1,22 @@
+{
+  "name": "http_mqtt_gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "tap test/*.test.js --no-coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mqtt": "^4.1.0",
+    "pino": "^7.1.0"
+  },
+  "devDependencies": {
+    "aedes": "^0.42.5",
+    "nanoid": "^3.1.12",
+    "node-fetch": "^2.6.0",
+    "tap": "^15.0.10"
+  }
+}
